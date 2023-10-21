@@ -1,0 +1,21 @@
+<html>
+        <body><html>
+<head>
+</head>
+<body>
+<h1>
+RANDOM COLOR
+</h1>
+<button onclick="setInterval(rbg, 500)">
+Generate Random Color
+</button>
+</body>
+</html></body>
+        <style></style>
+        <script>function rbg(){
+let r=Math.floor(Math.random()*256)
+let g=Math.floor(Math.random()*256)
+let b=Math.floor(Math.random()*256)
+document.querySelector("body").style.backgroundColor=`rgb(${r}, ${g}, ${b})`
+}</script>
+      </html>
